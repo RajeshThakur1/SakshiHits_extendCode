@@ -1,0 +1,118 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 29 03:07:42 CDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>203 seconds (203025 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='scripts.RefundRequestTest.testRefundRequest()'><b>testRefundRequest</b><br>Test class: scripts.RefundRequestTest<br/>
+<a href="#Output-1660325375" onClick='toggleBox("Output-1660325375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1660325375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1660325375">
+LCO Network name is: ABC Network 2<br/>
+LCO email id is abc@gmail.com<br/>
+Customer Id is: 123457.0<br/>
+Package name is: cartoon network2<br/>
+Pack Rate is: 100.0<br/>
+Pack start date is 25_04_2019<br/>
+Pack End date is 24_04_2019<br/>
+Pack disconnect date is 27_04_2019<br/>
+Start Date Cannot greater than End Date<br/>
+LCO Name : THOMOS JOHN(TEST) DPO
+LCO ID : 1001506184
+Credit Balance : 1803.71<br/>
+LCO Network name is: ABC Network 3<br/>
+LCO email id is abc@gmail.com<br/>
+Customer Id is: 123458.0<br/>
+Package name is: cartoon network3<br/>
+Pack Rate is: 100.0<br/>
+Pack start date is 26_04_2019<br/>
+Pack End date is 25_05_2019<br/>
+Pack disconnect date is 30_04_2019<br/>
+LCO Network name is: ABC Network 5<br/>
+LCO email id is abc@gmail.com<br/>
+Customer Id is: 123458.0<br/>
+Package name is: cartoon network3<br/>
+Pack Rate is: 100.0<br/>
+Pack start date is 25_04_2019<br/>
+Pack End date is 24_05_2019<br/>
+Pack disconnect date is 27_04_2019<br/>
+</div>
+</td>
+<td></td>
+<td>193</td>
+<td>scripts.RefundRequestTest@475530b9</td></tr>
+</table><p>
+</body>
+</html>

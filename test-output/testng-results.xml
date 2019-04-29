@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[LCO Network name is: ABC Network 2]]>
+    </line>
+    <line>
+      <![CDATA[LCO email id is abc@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Customer Id is: 123457.0]]>
+    </line>
+    <line>
+      <![CDATA[Package name is: cartoon network2]]>
+    </line>
+    <line>
+      <![CDATA[Pack Rate is: 100.0]]>
+    </line>
+    <line>
+      <![CDATA[Pack start date is 25_04_2019]]>
+    </line>
+    <line>
+      <![CDATA[Pack End date is 24_04_2019]]>
+    </line>
+    <line>
+      <![CDATA[Pack disconnect date is 27_04_2019]]>
+    </line>
+    <line>
+      <![CDATA[Start Date Cannot greater than End Date]]>
+    </line>
+    <line>
+      <![CDATA[LCO Name : THOMOS JOHN(TEST) DPO
+LCO ID : 1001506184
+Credit Balance : 1803.71]]>
+    </line>
+    <line>
+      <![CDATA[LCO Network name is: ABC Network 3]]>
+    </line>
+    <line>
+      <![CDATA[LCO email id is abc@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Customer Id is: 123458.0]]>
+    </line>
+    <line>
+      <![CDATA[Package name is: cartoon network3]]>
+    </line>
+    <line>
+      <![CDATA[Pack Rate is: 100.0]]>
+    </line>
+    <line>
+      <![CDATA[Pack start date is 26_04_2019]]>
+    </line>
+    <line>
+      <![CDATA[Pack End date is 25_05_2019]]>
+    </line>
+    <line>
+      <![CDATA[Pack disconnect date is 30_04_2019]]>
+    </line>
+    <line>
+      <![CDATA[LCO Network name is: ABC Network 5]]>
+    </line>
+    <line>
+      <![CDATA[LCO email id is abc@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Customer Id is: 123458.0]]>
+    </line>
+    <line>
+      <![CDATA[Package name is: cartoon network3]]>
+    </line>
+    <line>
+      <![CDATA[Pack Rate is: 100.0]]>
+    </line>
+    <line>
+      <![CDATA[Pack start date is 25_04_2019]]>
+    </line>
+    <line>
+      <![CDATA[Pack End date is 24_05_2019]]>
+    </line>
+    <line>
+      <![CDATA[Pack disconnect date is 27_04_2019]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="203025" started-at="2019-04-29T08:07:42Z" finished-at="2019-04-29T08:11:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="203025" started-at="2019-04-29T08:07:42Z" finished-at="2019-04-29T08:11:05Z">
+      <class name="scripts.RefundRequestTest">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.RefundRequestTest@475530b9]" name="openApplication" is-config="true" duration-ms="9205" started-at="2019-04-29T08:07:42Z" finished-at="2019-04-29T08:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testRefundRequest()[pri:0, instance:scripts.RefundRequestTest@475530b9]" name="testRefundRequest" duration-ms="193601" started-at="2019-04-29T08:07:51Z" finished-at="2019-04-29T08:11:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LCO Network name is: ABC Network 2]]>
+            </line>
+            <line>
+              <![CDATA[LCO email id is abc@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Customer Id is: 123457.0]]>
+            </line>
+            <line>
+              <![CDATA[Package name is: cartoon network2]]>
+            </line>
+            <line>
+              <![CDATA[Pack Rate is: 100.0]]>
+            </line>
+            <line>
+              <![CDATA[Pack start date is 25_04_2019]]>
+            </line>
+            <line>
+              <![CDATA[Pack End date is 24_04_2019]]>
+            </line>
+            <line>
+              <![CDATA[Pack disconnect date is 27_04_2019]]>
+            </line>
+            <line>
+              <![CDATA[Start Date Cannot greater than End Date]]>
+            </line>
+            <line>
+              <![CDATA[LCO Name : THOMOS JOHN(TEST) DPO
+LCO ID : 1001506184
+Credit Balance : 1803.71]]>
+            </line>
+            <line>
+              <![CDATA[LCO Network name is: ABC Network 3]]>
+            </line>
+            <line>
+              <![CDATA[LCO email id is abc@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Customer Id is: 123458.0]]>
+            </line>
+            <line>
+              <![CDATA[Package name is: cartoon network3]]>
+            </line>
+            <line>
+              <![CDATA[Pack Rate is: 100.0]]>
+            </line>
+            <line>
+              <![CDATA[Pack start date is 26_04_2019]]>
+            </line>
+            <line>
+              <![CDATA[Pack End date is 25_05_2019]]>
+            </line>
+            <line>
+              <![CDATA[Pack disconnect date is 30_04_2019]]>
+            </line>
+            <line>
+              <![CDATA[LCO Network name is: ABC Network 5]]>
+            </line>
+            <line>
+              <![CDATA[LCO email id is abc@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Customer Id is: 123458.0]]>
+            </line>
+            <line>
+              <![CDATA[Package name is: cartoon network3]]>
+            </line>
+            <line>
+              <![CDATA[Pack Rate is: 100.0]]>
+            </line>
+            <line>
+              <![CDATA[Pack start date is 25_04_2019]]>
+            </line>
+            <line>
+              <![CDATA[Pack End date is 24_05_2019]]>
+            </line>
+            <line>
+              <![CDATA[Pack disconnect date is 27_04_2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testRefundRequest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.RefundRequestTest@475530b9]" name="closeApplication" is-config="true" duration-ms="164" started-at="2019-04-29T08:11:05Z" finished-at="2019-04-29T08:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.RefundRequestTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
